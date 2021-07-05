@@ -4,6 +4,7 @@
       background-color:rgb(0, 0, 0);
       position: sticky;
       top: 0;
+      z-index: 999;
   }
 
   .topbarWrapper{
@@ -23,7 +24,7 @@
 
   .topRight{
       display: flex;
-    align-items: center;
+      align-items: center;
   }
 
   .topbarIconContainer{
