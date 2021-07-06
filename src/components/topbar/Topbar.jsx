@@ -7,7 +7,7 @@ export default function Topbar() {
         <div className="topbar">    
             <div className="topbarWrapper">
                 <div className="topLeft">
-                    <div className="logo">ReactPanel</div>
+                    <div className="logo">Admin Panel</div>
                 </div>
                 <div className="topRight">
                     <div className="topbarIconContainer">

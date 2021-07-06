@@ -48,3 +48,15 @@ export const userData = [
         "Active User": 3490,
       },
 ];
+
+export const userRow = [
+  { id: 1, userName: 'Snow', avatar: 'https://www.w3schools.com/css/paris.jpg', email: 'example@gmail.com',status:"active",transaction:"$120,000" },
+  { id: 2, userName: 'Lannister', avatar: 'https://www.w3schools.com/css/paris.jpg', email: 'example@gmail.com',status:"active",transaction:"$120,000" },
+  { id: 3, userName: 'Lannister', avatar: 'https://www.w3schools.com/css/paris.jpg', email: 'example@gmail.com',status:"active",transaction:"$120,000" },
+  { id: 4, userName: 'Stark', avatar: 'https://www.w3schools.com/css/paris.jpg', email: 'example@gmail.com',status:"active",transaction:"$120,000" },
+  { id: 5, userName: 'Targaryen', avatar: 'https://www.w3schools.com/css/paris.jpg', email: 'example@gmail.com',status:"active",transaction:"$120,000"},
+  { id: 6, userName: 'Melisandre', avatar: 'https://www.w3schools.com/css/paris.jpg', email: 'example@gmail.com',status:"active",transaction:"$120,000" },
+  { id: 7, userName: 'Clifford', avatar: 'https://www.w3schools.com/css/paris.jpg', email: 'example@gmail.com',status:"active",transaction:"$120,000" },
+  { id: 8, userName: 'Frances', avatar: 'https://www.w3schools.com/css/paris.jpg', email: 'example@gmail.com',status:"active",transaction:"$120,000" },
+  { id: 9, userName: 'Roxie', avatar: 'https://www.w3schools.com/css/paris.jpg', email: 'example@gmail.com',status:"active",transaction:"$120,000" },
+];
