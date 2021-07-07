@@ -30,7 +30,7 @@ import {useState} from "react";
         {field:'action', headerName:'Actions',width:150, renderCell:(params)=>{
             return (
                 <>
-                <Link to={`/users/${params.row.id}`}>
+                <Link to={`/user/${params.row.id}`}>
                 <button className="userListEdit">Edit</button>
                 </Link>
                 <DeleteOutline 

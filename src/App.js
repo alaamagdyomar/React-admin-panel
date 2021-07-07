@@ -3,6 +3,7 @@ import Sidebar from './components/sidebar/Sidebar.jsx';
 import './app.css'
 import Home from './pages/home/Home';
 import UserList from './pages/userList/userList.jsx';
+import User from './pages/user/User';
 import {
   BrowserRouter as Router,
   Switch,
@@ -22,6 +23,9 @@ function App() {
                  </Route>
                  <Route path="/users">
                     <UserList/>
+                 </Route>
+                 <Route path="/user/:userId">
+                    <User/>
                  </Route>
               </Switch>
           </div>
