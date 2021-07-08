@@ -6,6 +6,7 @@ import TrendingUpIcon from '@material-ui/icons/TrendingUp';
 import PaymentIcon from '@material-ui/icons/Payment';
 import AttachMoneyIcon from '@material-ui/icons/AttachMoney';
 import MessageIcon from '@material-ui/icons/Message';
+import {Link} from 'react-router-dom';
 
 export default function Sidebar() {
     return (
@@ -14,10 +15,12 @@ export default function Sidebar() {
                 <div className="sidebarMenu">
                     <h3 className="sidebarTitle">Dashboards</h3>
                     <ul className="sidebarList">
+                        <Link to="/">
                         <li className="sidebarListItem">
                             <LineStyleIcon className="sidebarIcon"/>
                             Home
                         </li>
+                        </Link>
                         <li className="sidebarListItem">
                             <TimelineIcon className="sidebarIcon"/>
                             Analytics
@@ -35,14 +38,18 @@ export default function Sidebar() {
                 <div className="sidebarMenu">
                     <h3 className="sidebarTitle">Quick Menu</h3>
                     <ul className="sidebarList">
+                    <Link to="/users">
                         <li className="sidebarListItem">
                             <LineStyleIcon className="sidebarIcon"/>
                             Users
                         </li>
+                    </Link>
+                      <Link to="/products">
                         <li className="sidebarListItem">
                             <AttachMoneyIcon className="sidebarIcon"/>
                             Products
                         </li>
+                      </Link>   
                         <li className="sidebarListItem">
                             <PaymentIcon className="sidebarIcon"/>
                             Transactions

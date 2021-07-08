@@ -6,6 +6,8 @@ import UserList from './pages/userList/userList.jsx';
 import User from './pages/user/User';
 import NewUser from './pages/newUser/NewUser';
 import ProductList from './pages/productList/ProductList';
+import Product from './pages/product/Product.jsx';
+import NewProduct from './pages/newProduct/NewProduct.jsx';
 import {
   BrowserRouter as Router,
   Switch,
@@ -35,12 +37,12 @@ function App() {
                      <Route path="/products">
                         <ProductList />
                         </Route>
-                     {/* <Route path="/product/:productId">
+                     <Route path="/product/:productId">
                         <Product />
                      </Route>
                      <Route path="/newproduct">
                         <NewProduct />
-                     </Route> */}
+                     </Route>
               </Switch>
           </div>
     </Router>
